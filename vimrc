@@ -1,10 +1,14 @@
+" For mac os X "
+filetype plugin indent on
+syntax on
+
 set t_Co=256
 call pathogen#incubate()
 call pathogen#helptags()
 
 " Color
-colorscheme breeze
-set background=light
+colorscheme codeschool
+set background=dark
 
 " NerdTree
 map <C-t> :NERDTreeToggle<CR>
