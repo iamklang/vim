@@ -1,6 +1,10 @@
-" For mac os X "
-filetype plugin indent on
-syntax on
+filetype off
+
+" Use pathogen to easily modify the runtime path to include all plugins under
+ call pathogen#infect()
+ call pathogen#helptags()
+ filetype plugin indent on 
+ syntax on
 
 set t_Co=256
 if &term =~ '256color'
