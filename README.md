@@ -3,7 +3,9 @@
  ln -s ~/.vim/vimrc ~/.vimrc
  
  cd .vim/
+ 
  git submodule init
+ 
  git submodule update
  
  refer : http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
