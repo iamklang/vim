@@ -14,6 +14,8 @@ if &term =~ '256color'
   set t_ut=
 endif
 
+colorscheme candycode
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -120,3 +122,10 @@ augroup VisibleNaughtiness
     autocmd BufEnter * endif
 augroup END
 
+let g:indentLine_char="┆"
+let g:indentLine_enabled=1
+let g:indentLine_first_char="┆"
+let g:indentLine_color_term = 100
+let g:indentLine_color_gui = '#A4E57E'
+let g:indentLine_fileTypeExclude = ['text', 'sh', 'rst', 'md', 'markdown']
+let g:indentLine_bufNameExclude = ['_.*', 'NERD_tree.*']
